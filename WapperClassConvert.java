@@ -7,7 +7,7 @@ public class WapperClassConvert {
         Integer wobj = Integer.valueOf(object);
         System.out.println(wobj);
         if(wobj instanceof Integer){
-            System.out.println("Convert Sucessfully "+ wobj);
+            System.out.println("Convert Sucessfully  value is: "+ wobj);
         }
         return wobj;
     }
